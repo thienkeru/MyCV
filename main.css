@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   font-family: 'Poppins', sans-serif;
+   height: 10000px;
+}
+p{
+    color: hsl(227,11%,58%);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;   
+}
+#top-1{
+    background-color: hsl(240, 5%, 19%) ;
+    background-image: url(chuttersnap-179223-unsplash.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   transition: 2s;
+}
+#top-1:hover{
+    background-position: left;
+
+}
+
+#hover-hinh img{
+    width: 1050px;
+    height: 590px;
+    box-shadow: 0px 8px 30px black;
+    border-radius: 3px;
+}
+#hover-hinh{
+    padding-top: 50px;
+    margin-left: 225px;
+    padding-left: 200px;
+    position: relative;
+}
+#hover-hinh .under-hover{
+    position: absolute;
+    left: 0px;
+    top: 230px;
+    font-size: 30px;
+    color: rgb(238, 238, 238);
+    
+}
+.under-hover h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 67px;
+    font-size: 50px;
+    text-shadow: 0px 8px 30px black;
+}
+.under-hover h2{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 40px;
+    line-height: 40px;
+    width: 600px;
+    font-size: 11px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0px 20px;
+    letter-spacing: 4px;
+}
+#under-hover-h2{
+    width: 558px;
+}
+.under-hover h1 b{
+    color: #F60B4B  ;
+}
+.menu-1{
+    padding-left: 197px;
+    padding-top: 20px;
+    background-color: #2B2C30;
+    /*overflow: hidden;
+    position: sticky;
+    top: 0;*/
+    /* position: fixed; */  
+    /*display: none; */
+}
+.displayblock{
+    display: block !important;
+}
+.menu-1>ul{
+    display: inline-table;  
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.menu-1 ul li{
+    float: left;
+
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    height: 53px;
+    line-height: 41px;
+
+}
+.menu-1>ul>li>a:hover{
+    color: #F60B4B;
+    transition: 1s;
+}
+/*menufixed*/
+.menu-2{
+    padding-left: 197px;
+   /* padding-top: 20px;*/
+    background-color: #2B2C30;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: none;
+}
+.menu-2>ul{
+    display: inline-table;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-2 ul li{
+    float: left;
+}
+.menu-2 ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    height: 40px;
+    line-height: 78px;
+}
+.menu-2>ul>li>a:hover{
+    color: #F60B4B;
+    transition: 1s;
+} 
+/*menufixed       */
+.menudoc{
+    position: fixed;
+    /* position: absolute; */
+    top: 0px;
+    width: 80px;
+    height: 720px;
+    left: 0px;
+    background-color: #2B2C30;
+}
+.menudoc a{
+    color: white;
+    display: block;
+    padding: 10px 0px;
+    text-align: center;
+    
+}
+.menudoc .mangxahoi i{
+    font-size: 17px;
+    padding: 10px 10px;
+    border: 1px solid gray;
+}
+.menudoc>.mangxahoi>a:hover i{
+    border-radius: 15px;
+    transition: 0.8s;
+    color: #F60B4B;
+}
+#home-logo img{
+    /* padding-top: 10px;
+    padding-left: 10px; */
+    text-align: center;
+   
+    width: 50px;
+    height: 50px;
+    opacity: 50%;
+}
+.mangxahoi{
+    padding-top: 160px;
+}
+/* tuchonaychencss */
+.avt{
+    width: 40rem;
+    padding-left: 9rem;
+    padding-top: 6rem;
+    padding-right: 5rem;
+}
+.hihi{
+    color: hsl(0,0%,60%);
+    font-family:  'Titillium Web', sans-serif;
+}
+
+.hihi p{
+    width: 300px;
+}
+.tr{
+    float: left;   
+}
+.p{
+    padding-top: 6rem;
+    width: 92rem;
+}
+.p1{
+    padding-top: 10px;
+}
+.p1 h2 b{
+    color: #F60B4B;;
+}
+.p2{
+    padding-top: 2rem;
+    line-height: 2rem;
+}
+.p2-1{
+    float: left;
+    margin-right: 1rem;
+}
+.p3{
+    padding-top: 2rem;
+}
+
+.p3 tr td{
+    line-height: 1.5rem;
+    padding-right: 1rem;
+}
+.p3 tr td i{
+    color: #F60B4B;;
+    margin-right: 1rem; 
+    float: left;
+    height: 6rem;
+}
+.duoi{
+    clear: both;
+    padding-top: 10px;
+}
+.duoi h2 b{
+    color: #F60B4B;;
+}
+/*ketthucchochen*/
+
+.resume{
+    width: 100%;
+    margin-top: 190px;
+
+
+}
+.resume-1{
+    width: 646px;
+    height: 241px;
+    margin: 72px 0px 0px 200px;
+    border-right: 3px solid hsl(46,96%,55%);
+    background-image: url(BACKGROUND.png);
+    background-size: cover;   
+     /*background-attachment: fixed; */
+}
+.resume .resume-1 h3{
+    color: hsl(0,0%,60%);
+    font-family:  'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 0px 30px;
+    text-align: left;
+
+}
+.resume .resume-1 h2{
+    color: hsl(215,16%,23%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    padding: 0px 0px 30px;
+    text-transform: uppercase;
+}
+.resume .resume-1 p{
+    color: hsl(227,11%,58%);
+    font-size: 11px;
+    font-weight: 500;
+    width: 473px;
+    line-height: 24px;
+    padding: 0px 0px 10px;
+    text-align: left;
+}
+.resume .resume-1 h2 b{
+    color: hsl(46,96%,55%);
+}
+.resume .resume-2{
+    background-image: url(lol3.png);
+     /*background-attachment: fixed;*/
+     transition: 2s;
+     
+}
+.resume .resume-2:hover{
+    background-position: bottom left;
+}
+.resume .resume-2 .tab{
+    padding-top: 80px;
+   
+    height: 432px;
+}
+.resume .resume-2 .tab .time-work{
+    width: 255px;
+    height: 79px;
+    padding-left: 19px;
+    padding-top: 16px;
+    background-color: hsl(0,0%,98%);
+    margin-left: 200px;
+    float: left;
+    line-height: 20px;
+}
+.time-work h3{
+    font-size: 14px;
+    text-align: left;   
+}
+span{
+    color: hsl(0,0%,40%);
+    font-size: 13px;
+}
+/*.img{
+   
+ width: 400px;
+ height: 500px;
+ background-color: black;
+ display: inline-block;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-image: url(fasttrackse1.jpg);
+ transition: 2s;
+}
+.img:hover{
+    background-position: top;
+    cursor: pointer;
+}*/
+.tab img{
+    width: 400px;
+    float: left;
+    margin-left: 106px;
+    margin-right: 105px;
+}
+.resume-2 .note{
+    width: 388px;
+    /*height: 384px;*/
+    background-color: hsl(0,0%,98%);
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.note h3{
+     font-size: 14px;
+    text-align: center; 
+}
+.note p{
+    color: hsl(227,11%,58%);
+    font-size: 11px;
+    line-height: 24px;
+    /* padding: 0px 0px 4px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.time-work h3 b{
+    color: hsl(46,96%,55%);
+}
+.skills{
+    width: 100%;
+   /* background-image: url(skill.png);*/
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 2s;
+
+}
+.design-skills{
+   /* float: left;*/
+   clear: both;
+       height: 200px;
+}
+.design-skills .content-skills{
+    width: 374px;
+    height: 133px;
+    margin-left: 145px;
+    padding-left: 30px;
+    padding-top: 30px;
+    float: left;
+    border-left: 2px solid #F60B4B;
+}
+.content-skills h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+.content-skills h3 span p{
+    color: hsl(227,11%,58%);
+    font-size: 11px;
+    line-height: 24px;
+    padding: 10px 0px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+}
+b{
+    color:#F60B4B;
+}
+.bar-skill{
+    float: left;
+    display: inline-flex;
+    margin-left: 1vw;
+
+}
+.box{
+    margin-left: 3vw;
+    
+}
+.box .vongtron  {
+    
+}
+.box .vongtron canvas{
+    
+}
+.subcontent-skills{
+    border: 0.1px solid #E6E6E6;
+    text-align: center;
+    background-color: hsl(0,0%,100%);
+    margin-left: 34px;
+    margin-top: 15px;
+
+}
+.subcontent-skills h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    color: hsl(0,0%,40%);
+    padding: 10px;
+}
+.code-skills{
+    margin-top: 100px;
+}
+.code-skills .content-skills{
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 250px;
+    padding-left: 30px;
+    border-left: 2px solid #F60B4B;
+    float: left;
+}
+.code-bar-skills{
+    list-style:none;
+    padding: 0;
+    width: 701px;
+   /* height: 400px;*/
+   margin-left: 600px;
+   font-size: 13px;
+   text-align: left;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+.code-bar-skills h3{
+    font-size: 13px;
+}
+.code-bar-skills li{
+    margin: 20px 0;
+}
+.bar{
+    background-color: hsl(46,96%,55%);
+    display: block;
+    height: 7px;
+    boder:1px solid #F60B4B;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.bar span{
+    height: 7px;
+    float: left;
+    background-color: #F60B4B;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.photoshop{
+    width: 80%;
+    animation: photoshop 2s;
+}
+.javascript{
+    width: 70%;
+    animation: javascipt 2s;
+}
+.nodejs{
+    width: 85%;
+    animation: nodejs 2s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes photoshop{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes javascipt{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes nodejs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
