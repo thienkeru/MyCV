@@ -541,3 +541,74 @@ b{
         width: 85%;
     }
 }
+.project{
+    width: 100%;
+}
+.sologan{
+    width: 100%;
+    height: 721px;
+    background-color: hsl(240, 5%,17%);
+    background-image: url(background-pj.png);
+    transition: 2s;
+}
+.sologan:hover{
+    background-position: right;
+}
+.project .sologan .tab{
+    /*background-color: hsl(240, 5%, 17%);*/
+    padding-left: 140px;
+    padding-top: 200px;
+   /* background-color: yellow;*/
+     float: left;
+     clear: both;
+}
+.project .sologan .tab h2{
+    color: white;
+    font-family: Popins, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.project .sologan .tab p{
+    width: 33%;
+    color: hsla(0,0%,100%,0.71);
+    font-family: Popins, sans-serif;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 500px;
+}
+.project .sologan .hinh-background{
+    width: 37%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+}
+.project .sologan .flex{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+   /* background-color: red;*/
+}
+.project .sologan .flex .box-flex{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+.box-flex h3{
+    color: white;
+    font-size: 44px;
+    text-align: left;
+}
+.box-flex h6{
+    background-color: hsla(0,0%,20%,0.31);
+    color: hsla(0,0%,100%,0.51);
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 10px;
+     letter-spacing: 2px;
+     margin: 6px 0 0;
+     padding-left: 10px;
+     text-transform: uppercase;
+}
