@@ -389,6 +389,7 @@ span{
     background-attachment: fixed;
     transition: 2s;
     margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 .design-skills{
@@ -548,7 +549,7 @@ b{
     width: 100%;
     height: 721px;
     background-color: hsl(240, 5%,17%);
-    background-image: url(background-pj.png);
+    background-image: url(background-2.png);
     transition: 2s;
 }
 .sologan:hover{
@@ -556,28 +557,36 @@ b{
 }
 .project .sologan .tab{
     /*background-color: hsl(240, 5%, 17%);*/
-    padding-left: 140px;
+    padding-left: 150px;
     padding-top: 200px;
    /* background-color: yellow;*/
      float: left;
      clear: both;
 }
-.project .sologan .tab h2{
-    color: white;
-    font-family: Popins, sans-serif;
+.project .sologan .tab h2 b{
+    color: #FAC921;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
+    font-weight: 800;
+}
+.project .sologan .tab h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
     text-align: left;
     text-transform: uppercase;
     padding-bottom: 50px;
+    font-weight: bold;
 }
 .project .sologan .tab p{
-    width: 33%;
+    width: 60%;
     color: hsla(0,0%,100%,0.71);
-    font-family: Popins, sans-serif;
+     font-family: 'Poppins', sans-serif;
     font-size: 11px;
     line-height: 24px;
     text-align: left;
-    font-weight: 500px;
+    font-weight: bold;
 }
 .project .sologan .hinh-background{
     width: 37%;
@@ -592,10 +601,7 @@ b{
    /* background-color: red;*/
 }
 .project .sologan .flex .box-flex{
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
-
+      margin: 60px 50px 50px 50px;
 }
 .box-flex h3{
     color: white;
@@ -605,10 +611,10 @@ b{
 .box-flex h6{
     background-color: hsla(0,0%,20%,0.31);
     color: hsla(0,0%,100%,0.51);
-     font-family: 'Titillium Web', sans-serif;
-     font-size: 10px;
-     letter-spacing: 2px;
-     margin: 6px 0 0;
-     padding-left: 10px;
-     text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin: 6px 0 0;
+    padding: 10px 10px 10px 20px;
+    text-transform: uppercase;
 }
