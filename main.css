@@ -267,13 +267,13 @@ li a{
     height: auto;
     margin: 72px 0px 0px 200px;
     border-right: 3px solid hsl(46,96%,55%);
-    background-image: url(BACKGROUND.png);
+    background-image: url(custom2.png);
     background-size: cover;   
      /*background-attachment: fixed; */
-     transition: 2s;
+     transition: 3s;
 }
 .resume-1:hover{
-    background-position: center;
+    background-position: right;
 }
 .resume .resume-1 h3{
     color: hsl(0,0%,60%);
