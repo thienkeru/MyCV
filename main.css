@@ -121,7 +121,7 @@ li a{
     padding-left: 197px;
    /* padding-top: 20px;*/
     background-color: #2B2C30;
-    top: 0px;
+    top: 0px;   
     position: fixed;
     width: 100%;
     height: 11%;
@@ -163,6 +163,7 @@ li a{
     height: 100%;
     left: 0px;
     background-color: #2B2C30;
+    z-index: 9999;
 }
 .menudoc a{
     color: white;
@@ -546,6 +547,7 @@ b{
 }
 .project{
     width: 100%;
+    background-color: #2A2A2E;
 }
 .sologan{
     width: 100%;
@@ -582,13 +584,17 @@ b{
     font-weight: bold;
 }
 .project .sologan .tab p{
+    padding: 10px;
+    background-color: hsla(0,0%,20%,0.31);
     width: 60%;
     color: hsla(0,0%,100%,0.71);
-     font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    line-height: 24px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
     text-align: left;
-    font-weight: bold;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
 }
 .project .sologan .hinh-background{
     width: 37%;
@@ -621,16 +627,86 @@ b{
     text-transform: uppercase;
 }
 .project .slide-project{
-    width: 80%;
+    margin-top: 50px;
+    padding-left: 0;
+    width: 100%;
     height: 619px;
     background-color: hsl(240,5%,17%);
     position: relative;
-    margin: auto; 
+    
 
 }
-.project>.slide-project .slide-box{
-    position: absolute;
+.project>.slide-project #slide-box{
+    /*position: absolute;*/
     width: 100%;
     height: 80%;
-    background-color: red;
+   /* background-color: red;*/
+}
+.slide-project #slide-box img{
+    margin-left: 48px;
+    width: 42%;
+    height: 80%; 
+}
+button{
+    padding: 13px;
+    border:none;
+    background-color: hsla(0,0%,100%,0.21);
+    font-size: 20px;
+    color: hsl(46,96%,55%);
+    position: absolute;
+    top:29%;
+    line-height: 13px;
+    outline: none;
+
+}
+button:hover{
+    border-radius: 100%;
+    transition: 1s;
+}
+.next{
+    border-radius: 4px;
+    margin-left: 690px;
+}
+.prew{
+    border-radius: 4px;
+}
+.projects-left{
+    width: 39%;
+    height: 100%;
+    float: left;
+    clear: both;
+    margin-right: 36px;
+    margin-left: 109px;
+}
+.projects-left h3{
+    color: hsla(0,0%,100%,0.71);
+     font-family: 'Poppins', sans-serif;
+     font-size: 40px;
+     text-transform: uppercase;
+     text-align: left;
+}
+.projects-left p{
+    font-size: 11px;
+    padding-top: 13px;
+    padding-bottom: 26px;
+}
+.projects-left a{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(46,96%,55%);
+    border-radius: 4px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 4px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    transition: 0.6s;
+
+}
+.projects-left a:hover{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+
 }

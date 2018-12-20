@@ -26,21 +26,21 @@
         <div class="menu-1">
             <ul>
             <li><a class="buttons" href="#">HOME</a></li>
-            <li><a class="buttons" href="#">ABOUT</a></li>
-            <li><a class="buttons" href="#">RESUME</a></li>
-            <li><a class="buttons" href="#skill1">SKILLS</a></li>
-            <li><a class="buttons" href="#">PROJECTS</a></li>
-            <li><a class="buttons" href="#">CONTACT</a></li>
+            <li><a class="buttons" href="#abouts">ABOUT</a></li>
+            <li><a class="buttons" href="#resumes">RESUME</a></li>
+            <li><a class="buttons" href="#skillss">SKILLS</a></li>
+            <li><a class="buttons" href="#projectss">PROJECTS</a></li>
+            <li><a class="buttons" href="#contacts">CONTACT</a></li>
             </ul>
         </div>
         <div class="menu-2">
             <ul>
             <li><a class="buttons" href="#">HOME</a></li>
-            <li><a class="buttons" href="#">ABOUT</a></li>
-            <li><a class="buttons" href="#">RESUME</a></li>
-            <li><a class="buttons" href="#skill1">SKILLS</a></li>
-            <li><a class="buttons" href="#">PROJECTS</a></li>
-            <li><a class="buttons" href="#">CONTACT</a></li>
+            <li><a class="buttons" href="#abouts">ABOUT</a></li>
+            <li><a class="buttons" href="#resumes">RESUME</a></li>
+            <li><a class="buttons" href="#skillss">SKILLS</a></li>
+            <li><a class="buttons" href="#projectss">PROJECTS</a></li>
+            <li><a class="buttons" href="#contacts">CONTACT</a></li>
             </ul>
         </div>
         <div class="menudoc">
@@ -53,7 +53,7 @@
             </div>
         </div>       
     </div>
-        <div class="tr">
+        <div id="abouts" class="tr">
             <img src="image2.jpg" class="avt">
         </div>
         <div class="p">
@@ -107,7 +107,7 @@
         </div>
     </div>
     <div class="resume">
-            <div class="resume-1">
+            <div id="resumes" class="resume-1">
                 <h3>Some Words About Me</h3>    
                 <h2><b>MY</b> AWESOME STORY</h2>
                 <p>I'm a guy with a lot of hobbies such as taking photo, traveling, eating, playing  game online, fashion, designing, etc. When I'm a childen, i like computer but 
@@ -156,7 +156,7 @@
                 </div>
             </div>
 
-            <div  class="skills">
+            <div id="skillss"  class="skills">
                 <div  class="design-skills">
                     <div class="content-skills">
                         <h3>Design <b>Skills</b></h3>
@@ -205,11 +205,11 @@
                     </div> 
                 </div>
             </div>
-            <div class="project">
+            <div id="projectss" class="project">
                 <div class="sologan">
                 <div class="tab">
-                    <h2>SOME INTERISTING <b>FACTS</b><br> ABOUT ME</h2>
-                    <p>We have a wide range of pneumatic and vacuum components and conveyor belts and systems specifically suiting the precise needs of the print and packaging industry.</p>
+                    <h2>SOME <b>INTERISTING </b>FACTS<br><b> ABOUT</b> ME</h2>
+                    <p>There are projects and hours of my work very enthusiastic, I will bring you satisfaction.</p>
                     <div class="flex">
                         <div class="box-flex">
                             <h3>12</h3>
@@ -231,25 +231,41 @@
                 </div>
             </div>
             <div class="slide-project">
-            <input type="radio" name="images" id="i1">
-            <input type="radio" name="images" id="i2">
-            <input type="radio" name="images" id="i3"> 
-                <div class="slide-box" id="one">
-                    <img src="">
-                </div>
-                <div class="slide-box" id="one">
-                    <img src="">
-                </div>
-                <div class="slide-box" id="two">
-                    <img src="">
-                </div>
-                <div class="slide-box" id="there">
-                    <img src="">
+            <div class="projects-left">
+                <h3>MY FEATURED PROJECTS</h3>
+                <p>n ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit commodo gravida.</p>
+                <a href="#">More</a>
+            </div>    
+           <button class="prew" onclick="prewImages()"><i class="fal fa-long-arrow-left"></i></button>
+           <button class="next" onclick="nextImages()"><i class="fal fa-long-arrow-right"></i></button>
+                <div id="slide-box" >
+                    <img src = "a.jpg">
                 </div>
             </div>
         </div>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="jquery.easypiechart.js"></script>
+<script type="text/javascript">
+    var slider_content = document.getElementById('slide-box');
+    var image = ['a','b','c','d'];
+    var i = image.length;
+    function nextImages(){
+        if(i < image.length){
+            i= i+1;
+        }else{
+            i = 1;
+        }
+        slider_content.innerHTML = "<img src ="+image[i-1]+".jpg>"
+    };
+    function prewImages() {
+        if(i<image.length+1 && i>1){
+            i = i-1;
+        }else{
+            i = image.length;
+        }
+        slider_content.innerHTML = "<img src ="+image[i-1]+".jpg>"
+    }
+</script>
 <script>
     $(function() {
         $('.vongtron').easyPieChart({
