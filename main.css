@@ -8,7 +8,7 @@ html{
 }
 body{
    font-family: 'Poppins', sans-serif;
-   height: 10000px;
+   
 }
 p{
     color: hsl(227,11%,58%);
@@ -23,12 +23,12 @@ p{
     background-image: url(chuttersnap-179223-unsplash.jpg);
     background-size: cover;
    background-repeat: no-repeat;
-   transition: 2s;
+  /* transition: 1s;*/
 }
-#top-1:hover{
+/*#top-1:hover{
     background-position: left;
 
-}
+}*/
 
 #hover-hinh img{
     margin-left: 120px;
@@ -46,7 +46,7 @@ p{
 #hover-hinh .under-hover{
     position: absolute;
     left: 0px;
-    top: 230px;
+    top: 35%;
     font-size: 30px;
     color: rgb(238, 238, 238);
     width: 58%;
@@ -124,7 +124,7 @@ li a{
     top: 0px;   
     position: fixed;
     width: 100%;
-    height: 11%;
+    height: 80px;
     display: none;
     z-index: 9999;
 }
@@ -423,6 +423,9 @@ span{
     text-align: left;
     font-family: 'Titillium Web', sans-serif;
 }
+.corlor{
+    color: #F60B4B;
+}
 b{
     color:#F60B4B;
 }
@@ -497,19 +500,19 @@ b{
     float: left;
     background-color: #F60B4B;
 }
-.html{
+.htmls{
     width: 90%;
     animation: html 2s;
 }
-.photoshop{
+.photoshops{
     width: 80%;
     animation: photoshop 2s;
 }
-.javascript{
+.javascripts{
     width: 70%;
     animation: javascipt 2s;
 }
-.nodejs{
+.nodejss{
     width: 85%;
     animation: nodejs 2s;
 }
@@ -647,7 +650,7 @@ b{
     width: 42%;
     height: 80%; 
 }
-button{
+.slide-project button{
     padding: 13px;
     border:none;
     background-color: hsla(0,0%,100%,0.21);
@@ -659,13 +662,13 @@ button{
     outline: none;
 
 }
-button:hover{
+.slide-project button:hover{
     border-radius: 100%;
     transition: 1s;
 }
 .next{
     border-radius: 4px;
-    margin-left: 690px;
+    margin-left: 46%;
 }
 .prew{
     border-radius: 4px;
@@ -677,6 +680,7 @@ button:hover{
     clear: both;
     margin-right: 36px;
     margin-left: 109px;
+
 }
 .projects-left h3{
     color: hsla(0,0%,100%,0.71);
@@ -690,7 +694,7 @@ button:hover{
     padding-top: 13px;
     padding-bottom: 26px;
 }
-.projects-left a{
+.projects-left>a{
     text-decoration: none;
     color: white;
     background-color: hsl(46,96%,55%);
@@ -704,9 +708,178 @@ button:hover{
     transition: 0.6s;
 
 }
-.projects-left a:hover{
+.projects-left>a:hover{
   padding-left: 50px;
   padding-right: 50px;
   font-weight: bold;
 
 }
+.box-project{
+    height: 72%;
+    width: 100%;
+    /*background-color: #2A2A2E;*/
+    display: flex;
+    background-image: url(projectccv.png); 
+    transition: 2s; 
+}
+.box-project:hover{
+    background-position: right;
+}
+.box-project .subbox{
+    width: 50%;
+    height: 52%;
+ position: relative;
+ text-align: center;
+
+}
+.box-project .subbox img{
+    width: 88%;
+    
+}
+.subbox>a{
+    color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 12px;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-align: center;
+     padding: 10px;
+     width: 100%;
+}
+.middle>a{
+    color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 20px;
+    text-decoration: none;   
+    padding: 2px;
+}
+.middle{
+transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1000;
+}
+.image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.subbox:hover .image{
+    opacity: 0.3;
+}
+
+.subbox:hover .middle{
+    opacity: 1;
+}
+.contacts{
+    width: 100%;
+    height: 650px;
+    background-image: url(backgroundss.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contacts .row{
+    height: 100%;
+    width: 80%;
+  /*  background-color: hsl(240,5%,17%);*/
+    margin: auto;
+    position: relative;
+}
+.contacts .row span{
+    color: hsl(0,0%,100%);
+    font-size: 64px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: -64px;
+    margin-top: 164px;
+    transform: rotate(-90deg);
+    opacity: 0.3;
+    position: absolute;
+}
+.forms{
+    width: 50%;
+    padding-left: 300px;
+    padding-top: 100px;
+    margin-top: 100px;
+    float: left;
+}
+.forms h6{
+    font-size: 12px;
+    color: white;
+    letter-spacing: 2px;
+    border-width: 0px 0px 1px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding: 0 0 13px;
+}
+.forms p{
+    color: hsla(0,0%,100%,0.71);
+    font-size: 11px;
+    line-height: 24px;
+    padding: 0  0 10px;
+    text-align:left;
+
+}
+.forms .form{
+    display: flex;
+    
+}
+.form p input{
+    background-color: hsla(0,0%,100%,0.11);
+    color: hsl(0,0%,100%);
+    font-size: 13px;
+    padding: 15px 20px;
+   border:none;
+   outline: none;
+}
+.form p button{
+    align-items: flex-start;
+    background-color: hsl(46,96%,55%);
+    border-radius: 0px 4px 4px 0;
+    color: white;
+    padding: 15px 30px;
+    text-align:center;
+    font-size: 13px;
+    border:none;
+}
+.row ul {
+    margin-top: 19%;
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.row ul li{
+    list-style: none;
+    
+    font-size: 19px;
+    padding-top: 20px;
+
+}
+.row ul li i{
+    color: hsl(46,96%,55%);
+
+
+}
+.row ul li h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: white;
+    display: inline;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.row ul li h6 b{
+    color: hsla(0,0%,100%,0.71);
+}
+

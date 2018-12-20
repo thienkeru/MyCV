@@ -26,21 +26,21 @@
         <div class="menu-1">
             <ul>
             <li><a class="buttons" href="#">HOME</a></li>
-            <li><a class="buttons" href="#abouts">ABOUT</a></li>
-            <li><a class="buttons" href="#resumes">RESUME</a></li>
-            <li><a class="buttons" href="#skillss">SKILLS</a></li>
-            <li><a class="buttons" href="#projectss">PROJECTS</a></li>
-            <li><a class="buttons" href="#contacts">CONTACT</a></li>
+            <li><a class=" buttons1" href="#abouts">ABOUT</a></li>
+            <li><a class="buttons2" href="#resumes">RESUME</a></li>
+            <li><a class="buttons3" href="#skillss">SKILLS</a></li>
+            <li><a class="buttons4" href="#projectss">PROJECTS</a></li>
+            <li><a class="buttons5" href="#contactss">CONTACT</a></li>
             </ul>
         </div>
         <div class="menu-2">
             <ul>
             <li><a class="buttons" href="#">HOME</a></li>
-            <li><a class="buttons" href="#abouts">ABOUT</a></li>
-            <li><a class="buttons" href="#resumes">RESUME</a></li>
-            <li><a class="buttons" href="#skillss">SKILLS</a></li>
-            <li><a class="buttons" href="#projectss">PROJECTS</a></li>
-            <li><a class="buttons" href="#contacts">CONTACT</a></li>
+            <li><a id="buttons1" href="#abouts">ABOUT</a></li>
+            <li><a class="buttons2" href="#resumes">RESUME</a></li>
+            <li><a class="buttons3" href="#skillss">SKILLS</a></li>
+            <li><a class="buttons4" href="#projectss">PROJECTS</a></li>
+            <li><a class="buttons5" href="#contactss">CONTACT</a></li>
             </ul>
         </div>
         <div class="menudoc">
@@ -49,7 +49,7 @@
             <a href="https://www.facebook.com/thien.keru2"><i class="fab fa-facebook fa-2x"></i></a>
             <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="#"><i class="fab fa-google fa-2x"></i></a>
+            <a href="google.com"><i class="fab fa-google fa-2x"></i></a>
             </div>
         </div>       
     </div>
@@ -205,7 +205,7 @@
                     </div> 
                 </div>
             </div>
-            <div id="projectss" class="project">
+        <div id="projectss" class="project">
                 <div class="sologan">
                 <div class="tab">
                     <h2>SOME <b>INTERISTING </b>FACTS<br><b> ABOUT</b> ME</h2>
@@ -229,19 +229,62 @@
                         </div>
                     </div>       
                 </div>
-            </div>
-            <div class="slide-project">
-            <div class="projects-left">
+                </div>
+                <div class="slide-project">
+                <div class="projects-left">
                 <h3>MY FEATURED PROJECTS</h3>
                 <p>n ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit commodo gravida.</p>
-                <a href="#">More</a>
-            </div>    
-           <button class="prew" onclick="prewImages()"><i class="fal fa-long-arrow-left"></i></button>
-           <button class="next" onclick="nextImages()"><i class="fal fa-long-arrow-right"></i></button>
+                <a href="https://www.pinterest.com/">More</a>
+                <div class="box-project">
+                    <div class="subbox">
+                        <div class="middle"><a class="text"  href="#"><i class="fal fa-caret-right fa-2x"></i></a></div>
+                        <img src="design1.jpg" class="image">
+                        <a href="#">PROJECT</a>
+                    </div>
+                    <div class="subbox">
+                        <div class="middle"><a class="text"  href="#"><i class="fal fa-caret-right fa-2x"></i></a></div>
+                        <img src="design2.jpg" class="image">
+                        <a href="#">PROJECT</a>
+                    </div>
+                    <div class="subbox">
+                        <div class="middle"><a class="text"  href="#"><i class="fal fa-caret-right fa-2x"></i></a></div>
+                        <img src="design3.jpg" class="image">
+                        <a href="#">PROJECT</a>
+                    </div>
+                    <div class="subbox">
+                        <div class="middle"><a class="text" href="#"><i class="fal fa-caret-right fa-2x"></i></a></div>
+                        <img src="design4.jpg" class="image">
+                        <a href="#">PROJECT</a>
+                    </div>
+                </div>
+                </div>    
+                <button class="prew" onclick="prewImages()"><i class="fal fa-long-arrow-left"></i></button>
+                <button class="next" onclick="nextImages()"><i class="fal fa-long-arrow-right"></i></button>
                 <div id="slide-box" >
                     <img src = "a.jpg">
                 </div>
-            </div>
+                </div>
+        </div>
+        <div id="contactss" class="contacts">
+            <div class="row">
+                <span>KERUPHAM</span>
+                <div class="forms">
+                    <h6>CONTACTS</h6>
+                    <p>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email</p>
+                    <form class="form" action="action_page.txt">            
+                            <p>      
+                        
+                        <input class="w3-input w3-border w3-sand" name="last" type="text"  placeholder="Your Email..."></p>
+                            <p> <button class="w3-btn w3-brown">Sign up</button></p>
+                    </form>
+                    
+                </div>
+                    <ul>
+                        <li><i class="far fa-phone-square"></i><h6><b>PHONE:</b> +849352424</h6></li>
+                        <li><i class="fal fa-envelope"></i><h6><b>EMAIL:</b> TWITCH.BH.VN@GMAIL.COM</h6></li>
+                        <li><i class="fal fa-map-marker-alt"></i><h6><b>ADDRESS:</b> Da Nang, Viet Nam</h6></li>
+                    </ul>
+            </div>   
         </div>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="jquery.easypiechart.js"></script>
@@ -266,20 +309,48 @@
         slider_content.innerHTML = "<img src ="+image[i-1]+".jpg>"
     }
 </script>
+<script type="text/javascript">
+    $('.contacts').mousemove(function(e){
+        var moveX = (e.pageX * -1/15);
+        var moveY = (e.pageY* -1/15);
+        $(this).css('background-position', moveX +'px ' + moveY+'px')
+    })
+</script>
+<script type="text/javascript">
+    $('#top-1').mousemove(function(e){
+        var moveX = (e.pageX * -1/15);
+        var moveY = (e.pageY* -1/15);
+        $(this).css('background-position', moveX +'px ' + moveY+'px')
+    })
+</script>
 <script>
-    $(function() {
-        $('.vongtron').easyPieChart({
-            //your options goes here
-        });
-    });
+    
 
     $(window).scroll(function(){
         var height = $(window).scrollTop();
         console.log(height);
         if(height >640){
             $('.menu-2').addClass('displayblock');
+            
         }else{
             $('.menu-2').removeClass('displayblock');
+            
+        }
+        if(height >2954){
+            $(function() {
+        $('.vongtron').easyPieChart({
+           
+        });
+    });
+            $('.html').addClass('htmls');
+            $('.photoshop').addClass('photoshops');
+            $('.javascript').addClass('javascripts');
+            $('.nodejs').addClass('nodejss');
+        }else{  
+            $('.html').removeClass('htmls');
+            $('.photoshop').removeClass('photoshops');
+            $('.javascript').removeClass('javascripts');
+            $('.nodejs').removeClass('nodejss');
         }
     })
 </script>
