@@ -549,7 +549,15 @@ b{
     }
 }
 
-
+.menudoc #buttontoptop{
+    padding-top: 181px;
+    font-size: 30px;
+    border: none;
+}
+.menudoc #buttontoptop i{
+    border:none;
+    font-size: 30px;
+}
 .project{
     width: 100%;
     background-color: #2A2A2E;
